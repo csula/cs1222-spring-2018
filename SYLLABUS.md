@@ -8,18 +8,15 @@
 ## Logistics
 
 - **Instructor** Hsiang-Yu (Eric) Liao [rcliao01@gmail.com](mailto:rcliao01@gmail.com)
-- **Lecture**
-  * Saturday 12:00 p.m. to 1:40 p.m. (section 7 - lecture) and 1:40 p.m. to 4:10 p.m. (section 8 - laboratory)
-  * Saturday 4:30 p.m. to 6:10 p.m. (section 9 - lecture) and 6:10 p.m. to 8:40 p.m. (section 10 - laboratory)
+- **Course Schedule**
+  * Lecture: Saturday 11:40 a.m. to 1:20 p.m.
+  * Laboratory: 1:20 p.m. to 3:50 p.m.
 - **Office Hours**
-  * On-site: Saturday 11:00 a.m. to 12:00 p.m., 4:10 p.m. to 4:30 p.m. and 8:40 p.m. to 9:40 p.m.
+  * On-site: Saturday 10:00 a.m. to 11:40 a.m. and 8:10 p.m. to 8:40 p.m.
   * Online 24/7
-- **Office Hours Location** Either at the classroom (E&T A309 or library -- see notes below)
-- **Location** E&T A309
+- **Office Hours Location** E&T A-220
+- **Location** E&T A-220
 - **Text Book** None as we will have all notes hosted on Github.
-
-> As the university notice, we (part-time lecturers) can use the library room -- Palmer Wing room 2097 -- for the office hour purpose.
-> Thus, if you don't find me at the classroom, please find me at library.
 
 ## Course Objectives
 
@@ -79,22 +76,23 @@ The schedule below is tentative and is subject to change.
 
 | Week # [date]      | Topic     | Notes |
 | ------------------ | --- | --- |
-| 1  [08/26]         | [Introduction][1] | Set up environment |
-| 2  [09/02]         | [SQL Syntax][2] |  |
-| 3  [09/09]         | [Aggregation & Sub-queries][3] | [Lab 1][24] |
-| 4  [09/16]         | [SQL Joins][4] | [Homework 1][17] |
-| 5  [09/23]         | [SQL Joins][4], [SQL Functions][5] |  |
-| 6  [09/30]         | [Advanced Queries][7] | [Lab 2][25] |
-| 7  [10/07]         | [Data Manipulation][8] | [Lab 3][26] |
-| 8  [10/14]         | [Mid term][6] | [Homework 2][18] |
-| 9  [10/21]         | [Data definition language][9] |  |
-| 10 [10/28]         | [Data definition language][9] |  |
-| 11 [11/04]         | [Advance Topic in SQL][15] | [Lab 4][27] |
-| 12 [11/11]         | [Introduction to NoSQL][10] |  |
-| 13 [11/18]         | [MongoDB Aggregation][13] | [Homework 3][19] |
-| 14 [11/25]         | Thanks Giving holiday | No class |
-| 15 [12/02]         | [Database Summary][12] | [Homework 4][20], [Extra Credit][28] |
-| Final [12/09]      | [Final][16] |  |
+| 1  [01/27]         | [Introduction][1] | Set up environment |
+| 2  [02/03]         | [SQL Syntax][2] |  |
+| 3  [02/10]         | [Aggregation & Sub-queries][3] | [Lab 1][24] |
+| 4  [02/17]         | [SQL Joins][4] | [Homework 1][17] |
+| 5  [02/24]         | [SQL Joins][4], [SQL Functions][5] |  |
+| 6  [03/03]         | [Advanced Queries][7] | [Lab 2][25] |
+| 7  [03/10]         | [Data Manipulation][8] | [Lab 3][26] |
+| 8  [03/17]         | [Mid term][6] | [Homework 2][18] |
+| 9  [03/24]         | [Data definition language][9] |  |
+| 10  [03/31]         | Spring break |  |
+| 11 [04/07]         | [Data definition language][9] |  |
+| 12 [04/14]         | [Advance Topic in SQL][15] | [Lab 4][27] |
+| 13 [04/21]         | [Introduction to NoSQL][10] |  |
+| 14 [04/28]         | [MongoDB Aggregation][13] | [Homework 3][19] |
+| 15 [05/05]         | Thanks Giving holiday | No class |
+| 16 [05/12]         | [Database Summary][12] | [Homework 4][20], [Extra Credit][28] |
+| Final [05/19]      | [Final][16] |  |
 
 [1]: notes/introduction.md
 [2]: notes/sql-syntax.md
