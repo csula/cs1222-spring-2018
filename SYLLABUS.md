@@ -28,13 +28,13 @@
   * SQL joins
   * SQL functions
   * Table design
-  * [Maybe] Stored procedures
-  * [Maybe] Triggers
+  * Stored procedures
+  * Triggers
 * Introduction to MongoDB
   * Collection and documents
   * Update
   * Read
-  * Aggregation
+  * Aggregation Pipeline
 
 ## Grading Allocation
 
@@ -49,6 +49,24 @@ classroom. If you are not able to make it to any of the lecture, please email me
 early.
 
 > All homework are due on CSNS. Make sure you have CSNS access.
+
+## Late Policy
+
+In any cases, you cannot submit homework/lab on time. Please notify me ahead of
+time via email. And you may submit up to 2 weeks after the due date with penalty
+of 10% each week after the due date. In example, homework 1 is due week 4 and
+student requests for late submission and submitted at week 6. He/she will get only
+at most 80% of the score of homework 1.
+
+## Midterm / Final Rules
+
+Midterm and final must be done in class and no late submission can be applied to
+midterm or final.
+
+Completion of midterm and final are required to pass class.
+
+> If you have emergency and cannot attend midterm / final, please notify me via
+> email.
 
 ## Grading Scale
 
