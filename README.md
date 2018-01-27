@@ -31,18 +31,10 @@ I do recommend you to have a programming text-editor ready like
 [Sublime Text][2], [Atom][3] or [Visual Studio Code][4] installed on your
 computer so you can code well.
 
-## Announcements
-
-Please check out this Github repository often as I'll post all updates here.
-
-| Date | Announcements |
-| :-- | :-- |
-
 ## Quick links
 
 * [Syllabus](SYLLABUS.md)
 * [SQL setup notes](https://github.com/csula/Utilities/blob/master/setups/mysql.md)
-* [Course chatroom](https://csula-cs1222-fall2017.slack.com)
 
 ### Recommended readings
 
