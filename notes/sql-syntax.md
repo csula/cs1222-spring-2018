@@ -1,6 +1,6 @@
 # Basic SQL Syntax
 
-Time to dive into SQL!
+Time to dive into technical detail of SQL syntaxes.
 
 ## Objectives
 
@@ -24,9 +24,9 @@ It's open **ANSI standard** -- which means SQL syntax will not likely to be chan
 for a long long time and likely to be supported from different vendors.
 
 As I mentioned earlier in introduction lectures, SQL is used by many different
-roles -- DBA (database administrators), application developers even front end
-developers can use SQL on the front end now! In other word, it is quite useful
-skill for developers like you to have.
+roles -- DBA (database administrators) and application developers; even front end
+developers can use SQL on the front end development now. In other word, it is
+quite useful skill for developers like you to have.
 
 ### What can SQL do?
 
@@ -36,7 +36,7 @@ skill for developers like you to have.
 
 ### How standard is SQL?
 
-Most vendors (Microsoft, Oracle, MySQL ... etc.) meets SQL89 standards and many
+Most vendors (Microsoft, Oracle, MySQL … etc.) meets SQL89 standards and many
 meets SQL92 standard.
 
 > So SQL you write in standard will like to work from one to the other database
@@ -68,15 +68,15 @@ FROM {table(s)}
 Although names and keywords are generally not case sensitive. I usually like to
 write keyword in all CAPITALIZED and name in the correct case with quote.
 
-Table name, on the other hand, is case sensitive!
+Table name, on the other hand, is case sensitive on certain system like Linux.
 
 If you somehow name the field name same as any of the keywords in SQL, you will
 have to surround your field name in quote.
 
 ### Set up of examples below
 
-Before starting the examples below, you will want your SQL server set up and
-MySQL workbench or MySQL client ready.
+Before starting the examples below, you will want your *MySQL server* set up and
+*MySQL workbench* or *MySQL CLI client* ready.
 
 Once you have MySQL server running and then you may start MySQL workbench.
 
@@ -142,7 +142,7 @@ For example:
 ```sql
 # You can compute numeric field
 SELECT (1+1);
-# will return 2!
+# will return 2
 ```
 
 ```sql
@@ -170,7 +170,7 @@ So what are the syntax of computation?
 ### Alias (cont.)
 
 Sometimes you may find that one word is not descriptive enough for alias (label),
-you can actually use multi-words (separated by space) for label too!
+you can actually use multi-words (separated by space) for label too.
 
 > You do need to surround this multi-words alias with quote
 
@@ -193,7 +193,7 @@ FROM Artists;
 So far we covered how to get all rows from tables. For usual use case, you want
 to get certain rows. You can accomplish this by using `WHERE` clauses.
 
-> Note that the where clauses can be case sensitive!
+> Note that the where clauses can be case sensitive.
 
 Example:
 
@@ -378,7 +378,7 @@ Syntax:
 ```sql
 SELECT {column(s)}
 FROM {table(s)}
-WHERE {field} IN (value1, value2, ...)
+WHERE {field} IN (value1, value2, …);
 ```
 
 Example:
