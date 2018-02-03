@@ -18,15 +18,16 @@ Time to dive into technical detail of SQL syntaxes.
 
 ### What is SQL?
 
-Structured Query Language.
+SQL stands for Structured Query Language.
 
 It's open **ANSI standard** -- which means SQL syntax will not likely to be changed
-for a long long time and likely to be supported from different vendors.
+for a long period of time and will likely to be supported from different vendors
+in the same standard.
 
-As I mentioned earlier in introduction lectures, SQL is used by many different
-roles -- DBA (DataBase Administrators) and application developers; even front end
-developers can use SQL on the front end development now. In other word, it is
-quite useful skill for developers like you to have.
+SQL is used by many different roles -- DBA (DataBase Administrators) and
+application developers; even front end developers can use SQL on the front end
+development now. In other word, it is a useful skill for developers like
+you to have.
 
 ### What can SQL do?
 
@@ -45,7 +46,7 @@ However, there are still some variety in SQL from vendors to vendors because:
 
 * ANSI doesn't define everything
 * Vendors may not comply with standards
-* Vendors wishes to include extra features/better performance
+* Vendors wishes to include extra features or better performance
 
 In summary, when it comes to ANSI SQL (standard) vs DBMS(Database Management System)
 SQL (vendor specific):
@@ -70,10 +71,14 @@ FROM {table, table(s)}
 Although names and keywords are generally not case sensitive. I usually like to
 write keyword in all CAPITALIZED and name in the correct case with quote.
 
-Table name, on the other hand, is case sensitive on certain system like Linux.
+Table name, on the other hand, is case sensitive on certain system like *Linux*.
 
 If you somehow name the field name same as any of the keywords in SQL, you will
-have to surround your field name in special quote `\``.
+have to surround your field name in special quote like below:
+
+```sql
+SELECT * FROM `order`;
+```
 
 ### Set up of examples below
 
@@ -396,7 +401,7 @@ WHERE Region IN ('IN', 'IL', 'OH');
 
 Reverses the selection criterion (True becomes False and vice versa)
 
-> Note that Parenthese(s) is required in MySQL
+> Note that parentheses may be required in MySQL for correct evaluation order
 
 Syntax:
 
@@ -467,7 +472,7 @@ FROM Tracks;
 From now, the result we are getting from the SELECT statement is usually not
 sorted in any order. We can use `ORDER BY` to sort the result
 
-> Note that default sorting order is ASCending (A-Z, 0-9), you can specify DESC
+> Note that default sorting order is ASCending (A-Z, 0-9), you can specify `DESC`
 for descending order
 
 Syntax:
