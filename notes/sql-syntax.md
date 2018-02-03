@@ -24,7 +24,7 @@ It's open **ANSI standard** -- which means SQL syntax will not likely to be chan
 for a long long time and likely to be supported from different vendors.
 
 As I mentioned earlier in introduction lectures, SQL is used by many different
-roles -- DBA (database administrators) and application developers; even front end
+roles -- DBA (DataBase Administrators) and application developers; even front end
 developers can use SQL on the front end development now. In other word, it is
 quite useful skill for developers like you to have.
 
@@ -58,9 +58,11 @@ SQL (vendor specific):
 ### Basic select structures
 
 ```sql
-SELECT {column(s)}
-FROM {table(s)}
-[WHERE {condition(s)}];
+-- {} is variable
+-- [] is optional
+SELECT {column, column(s)}
+FROM {table, table(s)}
+[WHERE {condition AND condition(s)}];
 ```
 
 ### General tips for writing SQL
@@ -71,7 +73,7 @@ write keyword in all CAPITALIZED and name in the correct case with quote.
 Table name, on the other hand, is case sensitive on certain system like Linux.
 
 If you somehow name the field name same as any of the keywords in SQL, you will
-have to surround your field name in quote.
+have to surround your field name in special quote `\``.
 
 ### Set up of examples below
 
@@ -356,7 +358,7 @@ WHERE Entrydate BETWEEN '2003-08-01' AND '2003-08-31';
 
 ### NULL
 
-> Oh billion-dollar mistake! https://en.wikipedia.org/wiki/Tony_Hoare
+> Oh billion-dollar mistake. https://en.wikipedia.org/wiki/Tony_Hoare
 
 NULL indicates empty or undefined field.
 
