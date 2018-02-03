@@ -106,8 +106,8 @@ The schedule below is tentative and is subject to change.
 | 10  [03/31]         | Spring break |  |
 | 11 [04/07]         | [Data definition language][9] |  |
 | 12 [04/14]         | [Advance Topic in SQL][15] | [Lab 4][27] |
-| 13 [04/21]         | [Introduction to NoSQL][10] |  |
-| 14 [04/28]         | [MongoDB Aggregation][13] | [Homework 3][19] |
+| 13 [04/21]         | No class | no class |
+| 14 [04/28]         | [Introduction to NoSQL][10], [MongoDB Aggregation][13] | [Homework 3][19] |
 | 15 [05/05]         | [MongoDB Aggregation][13] |  |
 | 16 [05/12]         | [Database Summary][12] | [Homework 4][20], [Extra Credit][28] |
 | Final [05/19]      | [Final][16] |  |
