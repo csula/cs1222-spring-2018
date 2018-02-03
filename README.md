@@ -88,6 +88,12 @@ The schedule below is tentative and is subject to change.
 * [Syllabus](SYLLABUS.md)
 * [SQL setup notes](https://github.com/csula/Utilities/blob/master/setups/mysql.md)
 
+### Recommended text editor
+
+* [VS Code](https://code.visualstudio.com/)
+* [Sublime Text](https://www.sublimetext.com/)
+* [Notedpad ++](https://notepad-plus-plus.org/)
+
 ### Recommended readings
 
 * [MySQL Execution Order](https://stackoverflow.com/a/24128128)
