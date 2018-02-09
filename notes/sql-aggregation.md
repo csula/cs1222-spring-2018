@@ -2,14 +2,14 @@
 
 We can use aggregations for better data reporting like summarizing data into
 few numbers (e.g. counting how many records in table). And we can do query
-against our own query (queryception!) for advance report!
+against our own query (queryception!) for advance report.
 
 Moreover, we will also be learning `JOIN` to deal with not just one but more
 than one table.
 
 ## Objectives
 
-* Review lab 1
+* Review exercise 1
 * Understand what aggregate functions are
 * Understand what sub-query is
 
@@ -19,9 +19,9 @@ than one table.
 * Learn how to write sub-query in `WHERE` clause
 * Use `ANY` and `ALL` with sub-query
 
-## Lab 1 Review
+## Exercise 1 Review
 
-It's very important for students to know the table structure before students start
+It's important for students to know the table structure before students start
 to design any sort of query. You got to understand what the database is for first.
 
 A general rule to get all talbes:
@@ -36,7 +36,7 @@ And with the table name, you can type in the following command to see their colu
 DESCRIBE {table};
 ```
 
-Last but not least, I strongly recommend you to prepare a pen and paper to start
+I strongly recommend you to prepare a pen and paper to start
 writing down all table and their columns so you know what column(s) you can read
 from what table.
 
@@ -261,7 +261,7 @@ SELECT TitleID, SUM(LengthSeconds) / 60 AS TotalMinutes
 FROM Tracks
 GROUP BY TitleID
 HAVING SUM(LengthSeconds) / 60 > 40;
-# In MySQL you can use column alias in HAVING Clause
+-- In MySQL you can use column alias in HAVING Clause
 ```
 
 Example of HAVING vs WHERE:
