@@ -1,17 +1,20 @@
 # Aggregations and Sub-queries
 
-We can use aggregations for better data reporting like summarizing data into
-few numbers (e.g. counting how many records in table). And we can do query
-against our own query (queryception!) for advance report.
-
-Moreover, we will also be learning `JOIN` to deal with not just one but more
-than one table.
+In this lesson, we will learn aggregations for better data reporting like
+summarizing data into few numbers (e.g. counting how many records in table) and
+do query against our own query (queryception!) for advance report.
 
 ## Objectives
 
 * Review exercise 1
 * Understand what aggregate functions are
+    * SUM
+    * AVG
+    * MAX
+    * MIN
 * Understand what sub-query is
+    * `SELECT * FROM (SELECT * FROM TABLE);`
+* Under how to use `ANY` AND `ALL` against query result (list of items)
 
 ## Metrics
 
@@ -24,7 +27,7 @@ than one table.
 It's important for students to know the table structure before students start
 to design any sort of query. You got to understand what the database is for first.
 
-A general rule to get all talbes:
+A general rule to get all tables:
 
 ```sql
 SHOW TABLES;
@@ -37,7 +40,7 @@ DESCRIBE {table};
 ```
 
 I strongly recommend you to prepare a pen and paper to start
-writing down all table and their columns so you know what column(s) you can read
+writing down all table and their columns so you know what columns you can read
 from what table.
 
 For example:
@@ -132,7 +135,7 @@ ER Diagram (Entity-Relationship)! -- http://www.tutorialspoint.com/dbms/er_diagr
 
 ### What is aggregation
 
-It's not like computed column we covered last week only derive value from single
+It's not like *calculated column* we covered last week only derive value from single
 row.
 
 Aggregation is about summarizing values from a group of rows.
@@ -153,7 +156,7 @@ Syntax:
 
 ```sql
 SELECT {aggregate_function}({field | expression}) [AS alias]
-FROM {table}
+FROM {table};
 ```
 
 Examples:
@@ -175,11 +178,33 @@ FROM Tracks;
 
 ### Group By
 
-If SELECT has only aggregations, it will only report one row for the entire set of records.
+If SELECT has only aggregations, it will only report one record for the entire
+set of table.
 
 If non-aggregate fields are included in the SELECT clause, query will report one
 row for each combination of non-aggregated field value with aggregates calculated
 for each.
+
+In example, you may have table looks like below:
+
+| name | grade |
+| :-- | --: |
+| Eric | 90 |
+| Eric | 80 |
+| Mark | 70 |
+
+A simple `SELECT AVG(grade) FROM grades` will return the average of all – that is
+(90 + 80 + 70) / 3, which is 80.
+
+What if we want to return the average grade per person? We will need to combine
+the aggregate function with `GROUP BY` statement like below:
+
+```sql
+SELECT name, AVG(grade)
+FROM grades
+GROUP BY name;
+-- need to include the group by statement!
+```
 
 > In other word, you must include `GROUP BY` clause to list the non-aggregate fields
 > with aggregated fields
@@ -243,6 +268,9 @@ HAVING clause is like WHERE but with a few differences:
 * HAVING always uses an aggregate function as its test
 
 Syntax (**order** is important):
+
+> You may check [Execution order notes](../explanations/execution-order.md) for
+> more detail
 
 ```sql
 SELECT {column(s)},
@@ -314,7 +342,7 @@ TitleID     AvgLength
 
 ### Sub-Queries
 
-A query within a query (Query-ception) (within parentheses)
+A query within a query (within parentheses)
 
 > Sub-queries can be placed in WHERE, SELECT, and FROM clauses
 
