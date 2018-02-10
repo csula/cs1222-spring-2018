@@ -3,7 +3,7 @@
 You should see the "Homework 1" entry showing up on CSNS now. Please submit one
 `homework1.sql` there.
 
-This is due **September 17th** midnight.
+This is due **Feb 17th** midnight.
 
 Study the Books database and create the following queries. (Note: you need to run Books.sql to create the tables)
 
