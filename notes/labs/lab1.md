@@ -6,8 +6,6 @@ Due at the end of class, please raise your hand when you are finished and we can
 
 > I may ask a few question on your implementation to further clarify your understanding.
 
-## Section 7 and 8 (12:00 to 4:30 section)
-
 2. List the first name, last name, home phone, and gender of all members from Georgia who either have a home phone in area code 822 or are female
 3. List all the information of tracks that do not have an MP3.
 4. List the TitleID, Title, and UPC of any titles whose UPC end with '2'
@@ -20,18 +18,3 @@ Due at the end of class, please raise your hand when you are finished and we can
 23. For any region that has more than one member with an e-mail address, list the region and the number of members with an e-mail address.
 
 > You can use this link to test if your SQL statements are correct: http://104.131.155.18:8000/lab-1_1
-
-## Section 9 and 10 (4:30 to 8:30 section)
-
-1. List the first name, last name, and region of all members from Virginia who either have a work phone or an email address.
-5. List the artist name and web address of any artists who has a web address. Rename the attributes artistname, webaddress as Artist Name, Web Address.
-6. List the TitleID, TrackNum, and TrackTitle of all tracks with 'Song' at the beginning of the TrackTitle
-10. Report the total time in minutes of all tracks with length greater than 150.
-12. List the number of tracks, total length in seconds and the average length in seconds of  all tracks with titleID 4.
-13. Report the number of male members who are in US.
-17. Report the number of members by state and gender. Sort the results by the region
-19. For each kind of LeadSource, report the number of artists who came in to the system through that lead source, the earliest EntryDate, and the most recent EntryDate.
-20. Report the titleid, average, shortest and longest track length in minutes of all tracks for each titleid with average length greater than 300. Use proper column alias.
-22. Report the TitleID and number of tracks for any TitleID with fewer than nine tracks.
-
-> You can use this link to test if your SQL statements are correct: http://104.131.155.18:8000/lab-1_2
