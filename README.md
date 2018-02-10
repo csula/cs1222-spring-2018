@@ -87,6 +87,7 @@ The schedule below is tentative and is subject to change.
 
 * [Syllabus](SYLLABUS.md)
 * [SQL setup notes](https://github.com/csula/Utilities/blob/master/setups/mysql.md)
+* [Slides](https://csula.github.io/cs1222-spring-2018)
 
 ### Recommended text editor
 
