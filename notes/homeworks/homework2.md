@@ -3,7 +3,7 @@
 You should see the "Homework 2" entry showing up on CSNS now. Please submit one
 `homework2.sql` there.
 
-This is due **October 14th** midnight.
+This is due **March 17th** midnight.
 
 Study the Books database and create the following queries. (Note: you need to run Books.sql to create the tables)
 
@@ -24,3 +24,5 @@ Study the Books database and create the following queries. (Note: you need to ru
 15. List the following information of all authors: the first name, the position of the first occurrence of 'e' within the first name, the last name, the position of the first occurrence of 'ma' within the last name. Use proper column names.
 16. List the name(s) of the publisher(s) that published the book with the shortest title name.
 17. For each author, list the author id, area code, and the phone number without the area code.
+
+http://104.131.155.18:8000/homework-2
