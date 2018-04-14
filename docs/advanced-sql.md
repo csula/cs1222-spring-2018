@@ -13,11 +13,6 @@
 
 ## Prepared Statements
 
-Prepared statements is used to create queries that contains placeholder that can
-be replaced with variables `?`.
-
-In example:
-
 ```sql
 SELECT *
 FROM Artists
