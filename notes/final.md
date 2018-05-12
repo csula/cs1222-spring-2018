@@ -2,7 +2,7 @@
 
 ## Final Schedule
 
-* May 19th, 9:00 a.m. to 11:00 a.m. 
+* May 19th, 9:30 a.m. to 11:30 a.m. 
 
 ## Description
 
