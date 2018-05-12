@@ -8,10 +8,10 @@ web application stack and focus on how database is used in it.
 
 What have we learned so far?
 
+* MySQL DDL
 * MySQL CRUD (Create, Read, Update & Delete)
 * MySQL Aggregations 
 * MySQL Joins (most challenged one) 
-* MySQL Transactions 
 * MongoDB CRUD 
 * MongoDB Aggregations
 
