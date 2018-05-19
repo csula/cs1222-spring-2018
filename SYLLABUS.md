@@ -77,7 +77,7 @@ Completion of midterm and final are required to pass class.
 * B-: 77 to 79
 * C+: 74 to 76
 * C: 60 to 73
-**Undergraduate students are required to obtain a grade 70 or above to pass the course**
+**Undergraduate students are required to obtain a grade 60 or above to pass the course**
 * NC: 0 to 59
 
 ## ADA Statement
